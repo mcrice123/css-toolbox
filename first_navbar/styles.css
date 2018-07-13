@@ -21,7 +21,12 @@
   height: 20px; }
   .brand a {
     text-decoration: none;
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 20px; }
+  .brand:hover {
+    background-color: #3ea7a2; }
+    .brand:hover a {
+      color: #d0f7f5; }
 
 .menu {
   position: relative;
