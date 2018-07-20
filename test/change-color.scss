@@ -1,6 +1,12 @@
+// Styles for div that changes color only once and remains second color
+
 * {
   font-family: Arial;
 }
+
+$firstColor: red;
+$secondColor: yellow;
+$time: 4s;
 
 .frame {
   width: 400px;
@@ -9,17 +15,17 @@
   left: 50%;
   margin-top: -200px;
   margin-left: -200px;
-  background-color: aquamarine;
+  background-color: $secondColor;
   border-radius: 2px;
   position: absolute;
 
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: $time;
 }
 
 // Animations!!!!
 
 @keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
+  from {background-color: $firstColor;}
+  to {background-color: $secondColor;}
 }
