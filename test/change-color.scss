@@ -29,3 +29,13 @@ $time: 4s;
   from {background-color: $firstColor;}
   to {background-color: $secondColor;}
 }
+
+// To change three colors:
+/*
+  @keyframes three-colors {
+  0% { background-color: yellow;}
+  50% {background-color: red;}
+  100% {background-color: green;}
+  }
+*/
+

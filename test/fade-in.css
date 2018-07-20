@@ -8,13 +8,13 @@
   left: 50%;
   margin-top: -200px;
   margin-left: -200px;
-  background-color: aquamarine;
+  background-color: black;
   border-radius: 2px;
   position: absolute;
-  animation-name: open-div;
-  animation-duration: 2s; }
+  animation-name: fade-in;
+  animation-duration: 1s; }
 
-@keyframes open-div {
+@keyframes fade-in {
   0% {
     background-color: rgba(0, 0, 0, 0); }
   25% {
@@ -26,4 +26,4 @@
   100% {
     background-color: black; } }
 
-/*# sourceMappingURL=here-i-am.css.map */
+/*# sourceMappingURL=fade-in.css.map */

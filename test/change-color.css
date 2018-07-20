@@ -19,5 +19,12 @@
     background-color: red; }
   to {
     background-color: yellow; } }
+/*
+  @keyframes three-colors {
+  0% { background-color: yellow;}
+  50% {background-color: red;}
+  100% {background-color: green;}
+  }
+*/
 
 /*# sourceMappingURL=change-color.css.map */
