@@ -11,19 +11,22 @@
   background-color: aquamarine;
   border-radius: 2px;
   position: absolute;
-  animation-name: open-div;
-  animation-duration: 2s; }
+  -webkit-animation: open-div 2s linear infinite alternate;
+  -moz-animation: open-div 2s linear infinite alternate;
+  -ms-animation: open-div 2s linear infinite alternate;
+  -o-animation: open-div 2s linear infinite alternate;
+  animation: open-div 2s linear infinite alternate; }
 
 @keyframes open-div {
   0% {
-    background-color: rgba(0, 0, 0, 0); }
+    height: 0px; }
   25% {
-    background-color: rgba(0, 0, 0, 0.25); }
+    height: 100px; }
   50% {
-    background-color: rgba(0, 0, 0, 0.5); }
+    height: 200px; }
   75% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    height: 300px; }
   100% {
-    background-color: black; } }
+    height: 400px; } }
 
 /*# sourceMappingURL=here-i-am.css.map */
